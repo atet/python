@@ -2,7 +2,7 @@
 
 [![.img/python_logo.png](.img/python_logo.png)](#nolink)
 
-# Setup a Python Environment in One Click!
+# Create a Python Environment in One Click!
 
 You are all in for a treat: It used to be **extremely** frustrating to set up a web application development environment years ago, but now you can do it in a single command!
 
@@ -115,10 +115,18 @@ $ streamlit run app.py
 
 There you have it, your deployed web-based application!
 
+[Back to Top](#table-of-contents)
+
 ----------------------------------------------------------------------------
 
 ## Next Steps
 
+The sky is the limit now that you can quickly build and test web-based applications:
+- Create more [advanced applications in Streamlit](https://streamlit.io/gallery)
+- Deploy your apps on the cloud to share to the world
+- Explore other development environments easily set up on Docker
+
+[Back to Top](#table-of-contents)
 
 ----------------------------------------------------------------------------
 
@@ -129,6 +137,7 @@ There you have it, your deployed web-based application!
 My Windows Subsystem for Linux Tutorial | [https://github.com/atet/wsl](https://github.com/atet/wsl?tab=readme-ov-file#atet--wsl)
 Ubuntu (through WSL) is Linux-based and MacOS is UNIX-based | <a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions#:~:text=WSL%202%20is%20the%20current%20default%20version%20when%20installing%20a%20Linux%20distribution%20and%20uses%20the%20latest%20and%20greatest%20in%20virtualization%20technology%20to%20run%20a%20Linux%20kernel%20inside%20of%20a%20lightweight%20utility%20virtual%20machine%20(VM).%20WSL2%20runs%20Linux%20distributions%20as%20isolated%20containers%20inside%20the%20managed%20VM.">WSL: https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a></br></br><a href="https://en.wikipedia.org/wiki/MacOS#:~:text=macOS%2C%20originally%20Mac%20OS%20X,system%20for%20Apple's%20Mac%20computers.">MacOS: https://en.wikipedia.org/wiki/MacOS</a>
 Why are people using registries other than Docker Hub? *Docker Hub vs. Quay.io (Red Hat)* | https://www.g2.com/compare/docker-inc-docker-vs-red-hat-quay
+Streamlit App Gallery | https://streamlit.io/gallery
 
 [Back to Top](#table-of-contents)
 
