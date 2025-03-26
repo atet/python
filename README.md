@@ -15,44 +15,12 @@ In <10 minutes, we will:
 
 ----------------------------------------------------------------------------
 
-## Table of Contents
+## Docker on Windows Subsystem for Linux
 
-* [0. Requirements](#0-requirements)
-* [1. Introduction](#1-introduction)
-* [2. Installation](#2-installation)
-* [3. Basic Examples](#3-basic-examples)
-* [4. Next Steps](#4-next-steps)
-
-### Supplemental
-
-* [Other Resources](#other-resources)
-* [Troubleshooting](#troubleshooting)
-
-> NOTE: Make sure there's spacing to allow Markdown to work with HTML elements
-
-<details open>
-<summary>Want to ruin the surprise?</summary>
-
-- Thing 1
-- Thing 2
-
-</details>
-
-<details>
-<summary>Want a surprise? (CLICK TO EXPAND)</summary>
-
-1. Thing A
-2. Thing B
-
-</details>
-
-----------------------------------------------------------------------------
-
-## 0. Requirements
-
-REQUIREMENTS.
-
-[Back to Top](#table-of-contents)
+1. In Windows 10 & 11, you'll need Windows Subsystem for Linux (WSL), it's pretty easy to install from the Microsoft Store these days (just look up and install "Ubuntu" there)
+    - If you need more details, you can follow my WSL tutorial here: [https://github.com/atet/wsl](https://github.com/atet/wsl?tab=readme-ov-file#atet--wsl)
+    - MacOS has a command line terminal which uses similar syntax
+2. Docker Engine (not Docker Desktop) is a lightweight containerization solution that allows us to easily deploy self-contained environments from WSL, follow the three simple commands in this section: [Install and Test Installation](https://github.com/atet/wsl?tab=readme-ov-file#4-cli-docker)
 
 ----------------------------------------------------------------------------
 
@@ -60,15 +28,11 @@ REQUIREMENTS.
 
 INTRODUCTION.
 
-[Back to Top](#table-of-contents)
-
 ----------------------------------------------------------------------------
 
 ## 2. Installation
 
 INSTALLATION.
-
-[Back to Top](#table-of-contents)
 
 ----------------------------------------------------------------------------
 
@@ -76,15 +40,11 @@ INSTALLATION.
 
 BASIC EXAMPLES.
 
-[Back to Top](#table-of-contents)
-
 ----------------------------------------------------------------------------
 
 ## 4. Next Steps
 
 NEXT STEPS.
-
-[Back to Top](#table-of-contents)
 
 ----------------------------------------------------------------------------
 
@@ -92,7 +52,12 @@ NEXT STEPS.
 
 **Description** | **URL Link**
 --- | ---
-null | null
+My Windows Subsystem for Linux Tutorial | [https://github.com/atet/wsl](https://github.com/atet/wsl?tab=readme-ov-file#atet--wsl)
+Ubuntu (through WSL) is Linux-based and MacOS is UNIX-based | <a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions#:~:text=WSL%202%20is%20the%20current%20default%20version%20when%20installing%20a%20Linux%20distribution%20and%20uses%20the%20latest%20and%20greatest%20in%20virtualization%20technology%20to%20run%20a%20Linux%20kernel%20inside%20of%20a%20lightweight%20utility%20virtual%20machine%20(VM).%20WSL2%20runs%20Linux%20distributions%20as%20isolated%20containers%20inside%20the%20managed%20VM.">WSL: https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a></br></br><a href="https://en.wikipedia.org/wiki/MacOS#:~:text=macOS%2C%20originally%20Mac%20OS%20X,system%20for%20Apple's%20Mac%20computers.">MacOS: https://en.wikipedia.org/wiki/MacOS</a>
+
+
+
+
 
 [Back to Top](#table-of-contents)
 
@@ -104,7 +69,7 @@ Issue | Solution
 --- | ---
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
-[Back to Top](#table-of-contents)
+[Back to Top](#atet--python)
 
 ----------------------------------------------------------------------------
 
