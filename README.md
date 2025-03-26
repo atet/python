@@ -45,25 +45,80 @@ $ docker run \
 
 ## Tour of JupyterLab and Jupyter Notebook
 
-INSTALLATION.
+5. Log into JupyterLab using the access token: "`token`"
+6. The Launcher has three important tiles well use in this tutorial: 
+   - **Notebook/Python 3 (ipykernel)**
+   - **Other/Python File**
+   - **Other/Terminal**
+7. Click on **Notebook/Python 3 (ipykernel)**
+8. Type `x = "hello"; y = "world"` and press `SHIFT+ENTER`
+9. Type `print(x, y)` and press `SHIFT+ENTER`
+
+```
+hello world
+```
+
+Looks like your Python environment is up and running!
 
 ----------------------------------------------------------------------------
 
 ## Python Basics in Notebook and Script Formats
 
-BASIC EXAMPLES.
+Jupyter Notebooks use and "interactive" approach to programming where you execute line-by-line to assess results as you get them but we will use a Python script here to run everything at once.
+
+10. Open a new tab by clicking on the "+" symbol on the top tab bar
+11. Select **Other/Python File**
+12. Copy and paste the following into the file and press `CTRL+S` to save as "`untitled.py`"
+
+```python
+x = "world"; y = "hello"
+print(x, y)
+```
+
+13. Open another tab and select **Other/Terminal**
+14. In the terminal, execute the script by running:
+
+```bash
+$ python untitled.py 
+```
 
 ----------------------------------------------------------------------------
 
 ## Installing Streamlit Web Development Framework
 
-NEXT STEPS.
+15. In the terminal, execute the following to install Streamlit (will download ~100 MB of dependencies):
+
+```bash
+$ pip install streamlit
+```
 
 ----------------------------------------------------------------------------
 
 ## Deploying a Web-Based Application
 
-NEXT STEPS.
+16. Make a new file named `app.py`
+17. Copy and paste the following into the file and save:
+
+```python
+import streamlit as st
+
+st.write("Hello World!")
+```
+
+18. In the terminal, run the following:
+
+```bash
+$ streamlit run app.py
+```
+
+19. In your web browser, navigate to `http://localhost:8501`
+
+There you have it, your deployed web-based application!
+
+----------------------------------------------------------------------------
+
+## Next Steps
+
 
 ----------------------------------------------------------------------------
 
