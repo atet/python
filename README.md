@@ -1,8 +1,17 @@
 # [atet](https://github.com/atet) / [**_python_**](https://github.com/atet/python/blob/main/README.md#atet--python)
 
-[![.img/logo_template.png](.img/logo_template.png)](#nolink)
+[![.img/python_logo.png](.img/python_logo.png)](#nolink)
 
 # Setup a Python Environment in One Click!
+
+You are all in for a treat: It used to be **extremely** frustrating to set up a web application development environment years ago, but now you can do it in a single command!
+
+In <10 minutes, we will:
+- Set up a self-contained Python installation with Docker
+- Tour the Jupyter development environment and learn some basics
+- Create a simple web-based application and deploy it on your web browser
+
+*I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps*
 
 ----------------------------------------------------------------------------
 
